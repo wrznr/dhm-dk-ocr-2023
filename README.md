@@ -1,2 +1,2 @@
-# slide-template
-Template for [`remarkjs`](https://remarkjs.com/)-based slides deployed via GitHub Pages
+# dhm-dk-ocr-2023
+Slides and materials for the OCR lesson as part of the data competence seminar within the DH Master studies at TUD
