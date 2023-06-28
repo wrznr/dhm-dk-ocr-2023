@@ -10,7 +10,7 @@ layout: true
       <td style="text-align:right"><a href="https://www.slub-dresden.de/">www.slub-dresden.de</a></td>
     </tr>
     <tr>
-      <td style="text-align:right">Referat 2.5</td>
+      <td style="text-align:right">Referate 2.5 & 4.3</td>
       <td />
     </tr>
   </table>
@@ -19,16 +19,16 @@ layout: true
 <div class="my-title-footer">
   <table>
     <tr>
-      <td style="text-align:left"><b>Kay-Michael Würzner</b></td>
+      <td style="text-align:left"><b>Robert Sachunsky & Kay-Michael Würzner</b></td>
     </tr>
     <tr>
-      <td style="text-align:left">Referat 2.5</td>
+      <td style="text-align:left">Referate 2.5 bzw. 4.3</td>
     </tr>
     <tr>
-      <td style="font-size:8pt"><b>Date</b></td>
+      <td style="font-size:8pt"><b>30. Juni 2023</b></td>
     </tr>
     <tr>
-      <td style="font-size:8pt">Event</td>
+      <td style="font-size:8pt">Seminar *Datenkompetenz für Digital Humanities*</td>
     </tr>
   </table>
 </div>
@@ -38,8 +38,8 @@ layout: true
 class: title-slide
 count: false
 
-# Title
-## Subtitle
+# Optical Character Recognition
+## Vom Bild zum Text
 
 ---
 
@@ -63,5 +63,5 @@ class: part-slide
 # Many thanks for your attention!
 
 <center>
-<a href="https://wrznr.github.io/slide-template/">wrznr.github.io/slide-template</a>
+<a href="https://wrznr.github.io/dhm-dk-ocr-2023/">wrznr.github.io/dhm-dk-ocr-2023</a>
 </center>
