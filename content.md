@@ -597,6 +597,26 @@ count: false
 
 ---
 
+# OCR mit Tesserocr
+
+- [Python-API](https://github.com/sirfz/tesserocr) für Tesseract
+- enge Kopplung von Python-Bibliotheken und OCR mgl.
+- volle Kontrolle über alle Tesseractfunktionalitäten
+
+```python
+from tesserocr import PyTessBaseAPI
+
+images = ['sample.jpg', 'sample2.jpg', 'sample3.jpg']
+
+with PyTessBaseAPI() as api:
+    for img in images:
+        api.SetImageFile(img)
+        print(api.GetUTF8Text())
+        print(api.AllWordConfidences())
+```
+
+---
+
 class: part-slide
 count: false
 
