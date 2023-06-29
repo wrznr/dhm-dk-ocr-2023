@@ -43,18 +43,48 @@ count: false
 
 ---
 
-# Overview
+# Überblick
 
-- Section 1
-  + Subsection 1
-- Section 2
+- Kurze Einführung OCR
+- Hands-on Web: OCR mit Wikimedia
+- Demo Shell: OCR mit Tesseract
+- Hands-on Python: OCR mit Tesserocr
+- Demo *komplex*: optimierte OCR mit OCR-D
 
 ---
 
 class: part-slide
 count: false
 
-# Topic 1
+# Kurze Einführung OCR
+
+---
+
+class: part-slide
+count: false
+
+# OCR mit Wikimedia
+
+---
+
+class: part-slide
+count: false
+
+# OCR mit Tesseract
+
+---
+
+class: part-slide
+count: false
+
+# OCR mit Tesserocr
+
+---
+
+class: part-slide
+count: false
+
+# optimierte OCR mit OCR-D
 
 ---
 
