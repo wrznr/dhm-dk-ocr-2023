@@ -67,6 +67,35 @@ count: false
 
 ---
 
+# OCR mit Wikimedia
+
+- einfaches Webinterface zur OCR von Wikimedia-Inhalten
+
+<center>
+<img src="img/wikimedia.png" height="300px" />
+</center>
+
+→ [ocr-test.wmcloud.org](https://ocr-test.wmcloud.org/)
+
+---
+
+# OCR mit Wikimedia
+
+- Aufgabe
+    - Suchen Sie sich ein [geeignetes Bild](https://upload.wikimedia.org/wikipedia/commons/0/0e/Weisse_Scherzhafte_Lieder_003.jpg) bei Wikimedia.Commons (Tipp: via Wikisource)!
+    - Führen Sie eine OCR aus!
+    - Kopieren Sie sich das Textresultat!
+    - Führen Sie eine zweite OCR mit veränderten Parametern aus!
+    - Kopieren Sie sich das Textresultat
+    - Vergleichen Sie die Ergebnisse auf [diffchecker](https://www.diffchecker.com/)! Was fällt Ihnen alles auf?
+
+<center>
+<img src="img/diff.png" height="300px" />
+</center>
+
+
+---
+
 class: part-slide
 count: false
 
