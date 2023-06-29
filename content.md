@@ -91,7 +91,7 @@ Aufgabe
 
 ---
 
-# OCR mit Wikiemedia
+# OCR mit Wikimedia
 
 <center>
 <img src="img/diff.png" height="400px" />
@@ -104,6 +104,74 @@ class: part-slide
 count: false
 
 # OCR mit Tesseract
+
+---
+
+# OCR mit Tesseract
+
+- mit großem Abstand: verbreitetste OCR-Software
+    + Einsatz in unzähligen Apps, Forschungsprojekten, privaten Kontexten
+- kostenlos verwendbar, quelloffen entwickelt
+- Teil praktisch aller **Linux**distributionen
+    + Installation auf MacOS per `Homebrew` und `MacPorts` möglich
+    + Installation unter Windows per [Installer](https://github.com/UB-Mannheim/tesseract/wiki) möglich
+- Zugriff auf Tesseract per
+    + Programmierschnittstelle (API)
+    + **Kommandozeilenschnittstelle** (CLI)
+    + graphische Benutzeroberfläche (GUI, Drittanbieter)
+- Erkennunsgmodelle für zahlreiche Sprachen bzw. Schriften vorhanden
+    + teilweise als installierbare Pakete
+    + empfehlenswert jedoch Download von [GitHub](https://github.com/tesseract-ocr/tessdata_best)
+
+---
+
+# OCR mit Tesseract
+
+- Prinzipielle Kommandostruktur
+```
+tesseract EINGABEBILD AUSGABE (OPTIONEN) (AUSGABEKONFIGURATION)
+```
+- einfachster Aufruf
+```
+$ tesseract sample.png -
+```
+    + `-` schickt die Ergebnisse nach `stdout`
+    + Modell `eng` per default ausgewählt
+    + Konfiguration `txt` per default ausgewählt
+
+.cols[
+.sixty[
+```
+The Quick Brown
+Fox Jumps Over
+The Lazy Dog
+```
+]
+.fourty[
+<center>
+<img src="img/sample.png" width="300px" />
+<p style="font-size:4pt;">Image by Peter J. Acklam, public domain</p>
+</center>
+]
+]
+
+---
+
+# OCR mit Tesseract
+
+- Modellauswahl
+    + Option `-l MODELLNAME`, Datei `MODELLNAME.traineddata` nötig
+    + eventuell in Kombination mit `--tessdata-dir`
+    + Kombination mehrerer Modelle möglich:
+      `-l MODELLNAME+MODELLNAME2+MODELLNAME3`
+- Segmentierung
+    + Option `-psm MODUS` (Liste verfügbarer Optionen via `--help-psm`)
+    + Möglichkeit einzelne Absätze, Zeilen oder gar Wörter zu verarbeiten
+- Bildauflösung
+    + wichtiger Faktor für Ergebnisqualität
+    + idealerweise min. 300 dpi
+    + unter Umständen Teil der Metadaten, anonsten: `Warning: Invalid resolution 0 dpi. Using 70 instead.`
+    + manuell per `--dpi` setzbar
 
 ---
 
