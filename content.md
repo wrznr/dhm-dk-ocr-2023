@@ -81,16 +81,20 @@ count: false
 
 # OCR mit Wikimedia
 
-- Aufgabe
-    - Suchen Sie sich ein [geeignetes Bild](https://upload.wikimedia.org/wikipedia/commons/0/0e/Weisse_Scherzhafte_Lieder_003.jpg) bei Wikimedia.Commons (Tipp: via Wikisource)!
-    - Führen Sie eine OCR aus!
-    - Kopieren Sie sich das Textresultat!
-    - Führen Sie eine zweite OCR mit veränderten Parametern aus!
-    - Kopieren Sie sich das Textresultat
-    - Vergleichen Sie die Ergebnisse auf [diffchecker](https://www.diffchecker.com/)! Was fällt Ihnen alles auf?
+Aufgabe
+- Suchen Sie sich ein [geeignetes Bild](https://upload.wikimedia.org/wikipedia/commons/0/0e/Weisse_Scherzhafte_Lieder_003.jpg) bei Wikimedia.Commons (Tipp: via Wikisource)!
+- Führen Sie eine OCR aus!
+- Kopieren Sie sich das Textresultat!
+- Führen Sie eine zweite OCR mit veränderten Parametern aus!
+- Kopieren Sie sich das Textresultat
+- Vergleichen Sie die Ergebnisse auf [diffchecker](https://www.diffchecker.com/)! Was fällt Ihnen alles auf?
+
+---
+
+# OCR mit Wikiemedia
 
 <center>
-<img src="img/diff.png" height="300px" />
+<img src="img/diff.png" height="400px" />
 </center>
 
 
