@@ -617,6 +617,12 @@ with PyTessBaseAPI() as api:
 
 ---
 
+# OCR mit Tesserocr
+
+→ [Hands-on](https://github.com/rue-a/ocrd_python_codespace)
+
+---
+
 class: part-slide
 count: false
 
@@ -624,9 +630,39 @@ count: false
 
 ---
 
+# optimierte OCR mit OCR-D
+
+.cols[
+.fourty[
+- Tesseract: gute Basis-OCR
+- für herausfordernde Materialen nicht ohne weiteres geeignet
+- Weiteres: OCR-D
+]
+.sixty[
+
+]
+]
+
+---
+
+# optimierte OCR mit OCR-D
+
+- DFG-Initiative zur Verbesserung von OCR-Methoden für historische Drucke
+- `ocrd`: Python-Bibliothek zur Integration verschiedener OCR-Werkzeuge
+- modularer Ansatz
+
+> Nimm die Binarisierung von Ocropus, die Segmentierung von Tesseract und die Texterkennung von Calamari
+
+- quelloffen und frei nachnutzbar
+- leichte Integration neuer Werkzeuge
+
+→ Demo
+
+---
+
 class: part-slide
 
-# Many thanks for your attention!
+# Vielen Dank für Ihre Aufmerksamkeit!
 
 <center>
 <a href="https://wrznr.github.io/dhm-dk-ocr-2023/">wrznr.github.io/dhm-dk-ocr-2023</a>
