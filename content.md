@@ -636,10 +636,10 @@ count: false
 .fourty[
 - Tesseract: gute Basis-OCR
 - für herausfordernde Materialen nicht ohne weiteres geeignet
-- Weiteres: OCR-D
+- Weiteres: [OCR-D](https://ocr-d.de/)
 ]
 .sixty[
-
+HIER BÖRSENBLATT vorher nachher
 ]
 ]
 
